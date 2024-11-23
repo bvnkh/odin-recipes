@@ -1,0 +1,29 @@
+* {
+    background-color: rgb(228, 228, 228);
+}
+
+.image-container {
+    display: block;          /* Allows margin auto to work */
+    margin-left: auto;       /* Centers the div horizontally */
+    margin-right: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    width: fit-content; 
+}
+
+.main-body {
+    display: flex;
+    flex-direction: column;  /* Stacks items vertically */
+    align-items: center;     /* Centers items horizontally */
+    text-align: center;      /* Centers text within each item */
+}
+
+h1 {
+    text-align: center;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
